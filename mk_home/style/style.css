@@ -1,0 +1,97 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font:bold 15px "Segoe UI","Arial",sans-serif ;
+    display:block;
+    background-image:url('/images/bg.gif');
+    zoom : 1;
+}
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+#wrapper{
+    max-width:100%;
+    position:relative;
+    margin:0 auto;
+    background:url(/images/bg.gif);
+}
+#main_navigation {
+    
+    width:100%;
+    height:55px;
+    position:absolute;
+    display:inline-block;
+    background-color:#4384AA;
+}
+    #main_navigation ul{
+        -webkit-box-flex-group:1;
+        float:left;
+        width:90%;
+        height:55px;
+        position:relative;
+        text-align:center;
+        display:inline-block;
+        background-color:#4384AA;
+    }
+        #main_navigation ul li{
+            padding-top:15px;
+            margin-left:5px;
+            width:120px;
+            text-align:center;
+            display:inline-block;
+            background-color:#4384AA;
+
+        }
+            #main_navigation ul li div{
+                height:15px;
+                background:url('/images/inactive_link.png');
+                background-repeat:no-repeat;
+                background-position:bottom;
+            }
+            
+            #main_navigation li.selected div{
+                height:15px;
+                background:url('/images/active_link.png');
+                background-repeat:no-repeat;
+                background-position:bottom;
+            }
+#languages{
+    display:inline-block;
+    padding-top:15px;
+    color:white;
+    opacity:0.9;
+}
+a{
+    opacity:0.9;
+    display:block;
+    height:100%;
+    width:100%;
+    color:white;
+    text-decoration:none;
+    text-shadow: 0 1px 0 #000;
+}
+    a:hover{
+        opacity:0.5;
+    }
+    #main_navigation li.selected a{
+               color:black;
+               opacity:0.5;
+            }
+#main_content{
+    height:600px;
+}
+footer{
+    height:30px;
+}
+div#footer {
+    font:10px "Segoe UI","Arial",sans-serif ;
+    margin-left: 150px;
+    margin-bottom:20px;
+
+
+}
+.capital_letter{
+    font-size:13px;
+}

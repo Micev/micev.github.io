@@ -5,7 +5,7 @@
 body{
     font:bold 15px "Segoe UI","Arial",sans-serif ;
     display:block;
-    background-image:url('./images/bg.gif');
+    background-image:url('./../images/bg.gif');
     zoom : 1;
 }
 div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
@@ -15,7 +15,7 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
     max-width:100%;
     position:relative;
     margin:0 auto;
-    background:url(./images/bg.gif);
+    background:url(./../images/bg.gif);
 }
 header{
     position:relative;
@@ -49,14 +49,14 @@ header{
         }
             #main_navigation ul li div{
                 height:15px;
-                background:url('./images/inactive_link.png');
+                background:url('./../images/inactive_link.png');
                 background-repeat:no-repeat;
                 background-position:bottom;
             }
             
             #main_navigation li.selected div{
                 height:15px;
-                background:url('./images/active_link.png');
+                background:url('./../images/active_link.png');
                 background-repeat:no-repeat;
                 background-position:bottom;
             }

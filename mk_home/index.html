@@ -7,6 +7,7 @@
     <script>
         $(function onDocumentReady() {
             $("header nav > ul > li > a").on("click", function onNavItemClick(e) {
+
                 if (!$(this).parent().hasClass("selected")) {
                     $("header nav ul li.selected").removeClass("selected");
                     $(this).parent().addClass("selected");
@@ -17,7 +18,7 @@
                 //    e.preventDefaults();
                 //}
 
-                return false;
+                //return false;
             });
         });
     </script>
@@ -26,6 +27,10 @@
     <div id="wrapper">
         <header>
             <nav id="main_navigation">
+                <div id="languages">
+                    <span>BG</span>
+                    <img src="images/lang_dropdown.png">
+                </div>
                 <ul>
                     <li class="selected">
                         <a href="#">НАЧАЛО</a>
@@ -44,10 +49,6 @@
                         <div class="unactive"></div>
                     </li>
                 </ul>
-                <div id="languages">
-                    <span>BG</span>
-                    <img src="images/lang_dropdown.png">
-                </div>
             </nav>
         </header>
         <div id="main_content">

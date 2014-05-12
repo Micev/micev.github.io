@@ -1,32 +1,33 @@
-<section id="main_content">
-    <nav>
-        <div id="central_content">
-            <div class="row top right">
-                <section class="section_box top_left">
-                    
-                </section>
-            </div>
-            <div class="row"></div>
-            <div class="row top left">
-              <section class="section_box top_right">
-
-              </section>
-            </div>
-            <div class="central">
-                <div id="logo">
-                    <a href="javascript:"></a>
-                </div>
-            </div>
-            <div class="row bottom right" >
-              <section class="section_box down_left">
-              </section>
-            </div>
-            <div class="row"></div>
-            <div class="row bottom left">
-              <section class="section_box down_right">
-
-              </section>
-            </div>
+<section id="central_content_table">
+    <section id="central_content_cell">
+        <div class="row top right"></div>
+        <div class="row"></div>
+        <div class="row top left"></div>
+        <div id="central_area">
+            <nav>
+                <ul>
+                    <li id="logo"><a href="#"></a></li>
+                    <li id="top_left">
+                        <h2>ПРЕВОДИ И ЛЕГАЛИЗАЦИЯ</h2>
+                        <a href="#" class="section_link_img"></a>
+                    </li>
+                    <li id="top_right">
+                        <h2>ПОЖАРОБЕЗОПАСНОСТ</h2>
+                        <a href="#" class="section_link_img"></a>
+                    </li>
+                    <li id="bottom_left">
+                        <h2>ФИНАНСОВО - СЧЕТОВОДНИ УСЛУГИ</h2>
+                        <a href="#" class="section_link_img"></a>
+                    </li>
+                    <li id="bottom_right">
+                        <h2>ИЗРАБОТКА НА УЕБ САЙТОВЕ И МОБИЛНИ ПРИЛОЖЕНИЯ</h2>
+                        <a href="#" class="section_link_img"></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+        <div class="row bottom right"></div>
+        <div class="row"></div>
+        <div class="row bottom left"></div>
+    </section>
 </section>

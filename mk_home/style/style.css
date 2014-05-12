@@ -16,6 +16,7 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
     position:relative;
     margin:0 auto;
     background:url(./../images/bg.gif);
+    height:500px;
 }
 header{
     position:relative;
@@ -107,14 +108,44 @@ a{
         border-bottom:2px solid #000;
     }
             
+.section_box{
+    position:relative;
+    background-color:#fff;
+    box-shadow:rgb(0,0,0)0.5px 0.5px 4px 0.5px;
+    width:200px;
+    height:200px;
+    border:1px solid #000;
+}
+
+.top_left{
+   margin-left:-200px;
+   margin-top:-50px;
+}
+
+.top_right{
+    margin-left:100px;
+    margin-top:-50px;
+}
+
+.down_left{
+    margin-top:-5px;
+    margin-left:-200px;
+}
+
+.down_right{
+    margin-left:100px;
+}
+
 footer{
     height:30px;
 }
+
 div#footer {
     font:10px "Segoe UI","Arial",sans-serif ;
     margin-left: 150px;
     margin-bottom:20px;
 }
+
 .capital_letter{
     font-size:13px;
 }

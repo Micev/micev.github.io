@@ -163,6 +163,7 @@ a:hover{
 }
 
 #top_left {
+    color:#589E2A;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
     /*tova ti go davam za primer ako ti haresa s zaoblenite agli*/
@@ -180,6 +181,7 @@ a:hover{
     height: 124px;
 }
 #top_right {
+    color:#F73F11;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
     width:182px;
@@ -194,6 +196,7 @@ a:hover{
     height: 124px;
 }
 #bottom_left  {
+    color:#2F09C6;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
     width:182px;
@@ -208,6 +211,7 @@ a:hover{
     height: 124px;
 }
 #bottom_right {
+    color:#89060D;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
     width:182px;
@@ -216,7 +220,7 @@ a:hover{
     left: 312px;
 }
 h2{
-    text-shadow:1px 1px  #000;
+    text-shadow:1px 1px  #383838;
     height:60px;
     font-size:15px;
 }

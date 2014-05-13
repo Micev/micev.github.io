@@ -12,7 +12,7 @@
                         <a href="#" class="section_link_img"></a>
                     </li>
                     <li id="top_right">
-                        <h2>ПОЖАРОБЕЗОПАСНОСТ</h2>
+                        <h2 id="fire">ПОЖАРОБЕЗОПАСНОСТ</h2>
                         <a href="#" class="section_link_img"></a>
                     </li>
                     <li id="bottom_left">

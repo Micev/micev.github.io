@@ -6,22 +6,22 @@
         <div id="central_area">
             <nav>
                 <ul>
-                    <li id="logo"><a href="#"></a></li>
+                    <li id="logo"><a href="/"></a></li>
                     <li id="top_left">
-                        <h2>ПРЕВОДИ И ЛЕГАЛИЗАЦИЯ</h2>
-                        <a href="#" class="section_link_img"></a>
+                        <h2><a href="javascript:;">ПРЕВОДИ И ЛЕГАЛИЗАЦИЯ</a></h2>
+                        <a href="javascript:;" class="section_link_img"></a>
                     </li>
                     <li id="top_right">
-                        <h2 id="fire">ПОЖАРОБЕЗОПАСНОСТ</h2>
-                        <a href="#" class="section_link_img"></a>
+                        <h2 id="fire"><a href="javascript:;">ПОЖАРОБЕЗОПАСНОСТ</a></h2>
+                        <a href="javascript:;" class="section_link_img"></a>
                     </li>
                     <li id="bottom_left">
-                        <h2>ФИНАНСОВО - СЧЕТОВОДНИ УСЛУГИ</h2>
-                        <a href="#" class="section_link_img"></a>
+                        <h2><a href="javascript:;">ФИНАНСОВО - СЧЕТОВОДНИ УСЛУГИ</a></h2>
+                        <a href="javascript:;" class="section_link_img"></a>
                     </li>
                     <li id="bottom_right">
-                        <h2>ИЗРАБОТКА НА УЕБ САЙТОВЕ И МОБИЛНИ ПРИЛОЖЕНИЯ</h2>
-                        <a href="#" class="section_link_img"></a>
+                        <h2><a href="javascript:;">ИЗРАБОТКА НА <br />УЕБ И МОБИЛНИ ПРИЛОЖЕНИЯ</a></h2>
+                        <a href="javascript:;" class="section_link_img"></a>
                     </li>
                 </ul>
             </nav>

@@ -32,38 +32,38 @@ header{
    padding-top:15px;
    position:relative;
 }
-        #main_navigation ul li{
-            width:120px;
-            text-align:center;
-            display:inline-block;
-        }
-            #main_navigation ul li div{
-                height:15px;
-                background:url('./../images/inactive_link.png');
-                background-repeat:no-repeat;
-                background-position:bottom;
-            }
-            
-            #main_navigation li.selected div{
-                height:15px;
-                background:url('./../images/active_link.png');
-                background-repeat:no-repeat;
-                background-position:bottom;
-            }
+#main_navigation ul li{
+    width:120px;
+    text-align:center;
+    display:inline-block;
+}
+#main_navigation ul li div{
+    height:15px;
+    background:url('./../images/inactive_link.png');
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
+#main_navigation li.selected div{
+    height:15px;
+    background:url('./../images/active_link.png');
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
 #languages{
     display:inline-block;
     float:right;
     color:white;
     opacity:0.9;
 }
-a{
-opacity:0.9;
-display:block;
-height:100%;
-width:100%;
-color:white;
-text-decoration:none;
-text-shadow: 0 1px 0 #000;
+a {
+    opacity:0.9;
+    display:block;
+    height:100%;
+    width:100%;
+    color:white;
+    text-decoration:none;
+    text-shadow: 0 1px #000;
 }
 a:hover{
     opacity:0.5;
@@ -143,7 +143,11 @@ a:hover{
 #central_area > nav li {
     padding:5px;
     position: absolute;
-    
+    border-radius: 7px;
+}
+
+#central_area > nav li:not(:first-child) {
+    box-shadow:rgba(0,0,0, 0.5) 0px 0px 10px;
 }
 
 #logo {
@@ -164,14 +168,15 @@ a:hover{
 
 #top_left {
     color:#589E2A;
-    box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
-    /*tova ti go davam za primer ako ti haresa s zaoblenite agli*/
-    border-radius:10px;
     width:182px;
     height:186px;
     top: -165px;
     left: -193px;
+}
+
+#top_left > h2 > a{
+    color:#589E2A;
 }
 
 #top_right a.section_link_img {
@@ -180,6 +185,7 @@ a:hover{
     width: 180px;
     height: 124px;
 }
+
 #top_right {
     color:#F73F11;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
@@ -189,6 +195,11 @@ a:hover{
     top: -165px;
     left: 312px;
 }
+
+#top_right > h2 > a {
+    color:#F73F11;
+}
+
 #bottom_left a.section_link_img {
     background-image:url(./../images/finances.jpg);
     background-repeat:no-repeat;
@@ -196,13 +207,15 @@ a:hover{
     height: 124px;
 }
 #bottom_left  {
-    color:#2F09C6;
     box-shadow:rgb(0,0,0) 0px 0px 10px;
     border:1px solid #000;
     width:182px;
     height:186px;
     top: 110px;
     left: -193px;
+}
+#bottom_left > h2 > a {
+    color:#2F09C6;
 }
 #bottom_right a.section_link_img {
     background-image:url(./../images/code.jpg);
@@ -219,8 +232,13 @@ a:hover{
     top: 110px;
     left: 312px;
 }
-h2{
-    text-shadow:1px 1px  #383838;
+
+#bottom_right > h2 > a {
+    color:#89060D;
+}
+
+h2 > a{
+    text-shadow: 1px 1px #fff;
     height:60px;
     font-size:15px;
 }
@@ -241,4 +259,9 @@ div#footer {
 
 .capital_letter{
     font-size:13px;
+}
+
+#central_area h2 > a:hover {
+    color: #4384AA;
+    opacity: 1;
 }
